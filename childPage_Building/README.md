@@ -10,8 +10,8 @@
     <title>I'm Learning to Code</title>
 
     <!-- Used by Browser or Google Search-->
-    <meta name="author" content="Mark Mercer">
-    <meta name="description" content="Learning HTML by building a simple Website">
+    <meta name="author" content="Akram Elzein">
+    <meta name="description" content="YEG News">
     <meta name="keywords" content="boilerplate, starter code, HTML, learning">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
@@ -35,44 +35,42 @@
 
   <body>
 
-    <header>Meta Data Information</header>
-    <nav></nav>
-    <aside>
-      <article>
-        <p>Reopen this in a WYSIWYG to see the Meta Data in the Head</p>
-        <p>The meta data enables windows to be formatted and Google Indexed Searches to happen.</p>
-      </article>
-    </aside>
-    <section>
-      <header>Questions to summarize what you have learning</header>
-      <article>
-        <ul>
-          <li>Explain why the keyboard must be declared in the website?
-          <li>Explain what the "title changes?"
-          <li>Can you add an image to the browser-tab?
-            <li>If yes ... how is this done?
-          <li>What does changing the keywords do for index-based searches
-        </ul>
-      </article>
-    </section>
-    <article></article>
-    <footer></footer>
+   <p>
+     Two URLs to use in my lesson
+     1. https://deadline.com/wp-content/uploads/2022/09/GettyImages-1170383972-e1662140354328.jpg?crop=1072px%2C105px%2C4588px%2C2573px&resize=681%2C383
+     2. https://deadline.com/wp-content/uploads/2022/09/GettyImages-1170383972-e1662140354328.jpg
+     3. Introduces reading URLs for domain, server, and instructions to the server for reformating and changing image.
+   </p>
 
-  </body>
+   <header><h1>Image Lessons, no viewport</h1></header>
 
-  <footer>
-    <blockquote cite="https://www.brainyquote.com/quotes/mitch_kapor_163583">
-      <!-- Date Accessed 20220919 -->
-    </blockquote>
-    <p>
-      <strong>
-        "Getting information off the Internet is like taking a drink from a firehose."
-      </strong>
-      <em>- <a href="https://www.brainyquote.com/quotes/mitch_kapor_163583" target="_blank">
-        Mitch Kapor</a>
-      </em>
-    </p>
-    <p>&copy Mark Mercer, powered by MercersKitchen in GitHub</p>
-</footer>
+   <section>
+     <h3>Steps in Creating an Image</h3>
+         <ul>
+           <li> Pick an Image
+           <li> Record URL and Dimensions, Cite,
+             and comment for date accessed & Original Dimension
+           <li> Use img tag with src, alt, title, and style attribute
+         </ul>
 
-</html>
+   </section>
+
+   <section>
+     <h3>Example Image</h3>
+     <br>
+     <img src="https://previews.123rf.com/images/trimbaldi/trimbaldi1309/trimbaldi130900007/23089796-wow-in-pop-art.jpg" alt="Images\23089796-wow-in-pop-art.jpg" title="WOW! Mr. Mercer" style="max-width:25%;height:auto;">
+     <!-- Will size to a max with of Width 1300, height 606, but not bigger -->
+     <!-- Play with percentages-->
+     <br>
+     <br>
+   </section>
+
+   <section>
+     <h3>Example Image</h3>
+     <br>
+     <img src="https://www.pinterest.ca/pin/create/button/?description=Downtown+Edmonton+Districts+Have+you+wondered+what+is+it+like+to+live+in+Downtown+Edmonton%3F+This+metropolitan+area+is+not+only+full+of+amazing+employment+opportunities+but+also+provides+direct+%26hellip%3B+%5B%3Ca+href%3D%22https%3A%2F%2Fwww.espo.ca%2Fblog%2Fthe-districts-of-downtown-edmonton%2F%22%3Eread+more%3C%2Fa%3E%5D&media=https://www.espo.ca/blog/wp-content/uploads/2020/01/shutterstock_1272887869-420x300.jpg" alt="pictures\saved pictures\shutterstock_1272887869-scaled.jpg" title="Downtown,Edmonton" style="width:100%;height:auto;">
+     <!-- Width 1300, height 606 but will size bigger if window size is bigger-->
+     <!-- Play with percentages-->
+     <br>
+     <br>
+   </section>
