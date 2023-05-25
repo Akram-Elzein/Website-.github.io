@@ -57,7 +57,7 @@
    <section>
      <h3>Example Image</h3>
      <br>
-     <img src="https://previews.123rf.com/images/trimbaldi/trimbaldi1309/trimbaldi130900007/23089796-wow-in-pop-art.jpg" alt="Images\23089796-wow-in-pop-art.jpg" title="WOW! Mr. Mercer" style="max-width:25%;height:auto;">
+     <img src="https://previews.123rf.com/images/trimbaldi/trimbaldi1309/trimbaldi130900007/23089796-wow-in-pop-art.jpg" alt="Github\Website-.github.io\childPage_Building\shutterstock_1272887869-scaled.jpg" title="Downtown, Edmonton" style="max-width:25%;height:auto;">
      <!-- Will size to a max with of Width 1300, height 606, but not bigger -->
      <!-- Play with percentages-->
      <br>
@@ -67,7 +67,7 @@
    <section>
      <h3>Example Image</h3>
      <br>
-     <img src="https://www.pinterest.ca/pin/create/button/?description=Downtown+Edmonton+Districts+Have+you+wondered+what+is+it+like+to+live+in+Downtown+Edmonton%3F+This+metropolitan+area+is+not+only+full+of+amazing+employment+opportunities+but+also+provides+direct+%26hellip%3B+%5B%3Ca+href%3D%22https%3A%2F%2Fwww.espo.ca%2Fblog%2Fthe-districts-of-downtown-edmonton%2F%22%3Eread+more%3C%2Fa%3E%5D&media=https://www.espo.ca/blog/wp-content/uploads/2020/01/shutterstock_1272887869-420x300.jpg" alt="pictures\saved pictures\shutterstock_1272887869-scaled.jpg" title="Downtown,Edmonton" style="width:100%;height:auto;">
+     <img src="https://www.pinterest.ca/pin/create/button/?description=Downtown+Edmonton+Districts+Have+you+wondered+what+is+it+like+to+live+in+Downtown+Edmonton%3F+This+metropolitan+area+is+not+only+full+of+amazing+employment+opportunities+but+also+provides+direct+%26hellip%3B+%5B%3Ca+href%3D%22https%3A%2F%2Fwww.espo.ca%2Fblog%2Fthe-districts-of-downtown-edmonton%2F%22%3Eread+more%3C%2Fa%3E%5D&media=https://www.espo.ca/blog/wp-content/uploads/2020/01/shutterstock_1272887869-420x300.jpg" alt="Github\Website-.github.io\childPage_Building\shutterstock_1272887869-scaled.jpg" title="Downtown,Edmonton" style="width:100%;height:auto;">
      <!-- Width 1300, height 606 but will size bigger if window size is bigger-->
      <!-- Play with percentages-->
      <br>
