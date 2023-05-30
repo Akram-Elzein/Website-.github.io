@@ -25,19 +25,80 @@
      <!-- Already specified in the charset above-->
  
      <!-- Cyber Security Note about JavaScript in Browsers-->
+     
+     <style>
+          * {
+            box-sizing: border-box;
+            /*font-size:2vw;*/
+            /*Not the same as BODY 2vw*/
+          }
+              
+          /* Use DIV and HTML to view spaces assigned in webpage */ 
+          
+          .div {border: thin dotted red;}
+  
+          .header {
+            padding: 15px;
+            font-size:3.4vw;
+            /*border: 1px solid green;*/
+          }
+          .nav {
+            width: 25%;
+            float: left;
+            padding: 15px;
+            font-size:1.4vw;
+            /*border: 1px solid rgb(19, 0, 128);*/
+          }
+          .main {
+            width: 50%;
+            float: left;
+            padding: 15px;
+            /*border: 1px solid rgb(19, 0, 128);*/
+            font-size:2.4vw;
+          }
+          .aside {
+            width: 25%;
+            float: left;
+            padding: 15px;
+            /*border: 1px solid rgb(19, 0, 128);*/
+          }
+          .footer {
+            padding: 15px;
+            /*border: 1px solid rgb(19, 0, 128);*/
+          }
+
+          /* Extras from Research */
+
+          .centerDIV {
+               /*margin-left: auto;
+               margin-right: auto;
+               margin-top: auto;
+               margin-bottom: auto;*/
+               width:60%;
+               margin: auto;
+               padding:15px;
+          }
+          .centerText {
+               width:99%;
+               text-align: center;
+          }
+
+     </style>
+
      <noscript>Running JavaScript is not necessary in the HTML Page ... FYI: your Feature to execute scripts is turned off</noscript>
  
 </head>
-<body style="font-size:vw">
-     <!-- Note: add style attribute to all sections, inline-->
-     <header>
+<body style="font-size:2vw">
+     <!-- Note: if BODY is assigned 2vw in CSS, will apply differently-->
+     <header class="header centerText">
           <h1>H1 in HEADER, one whitespace</h1>
           <p>Paragraph Tag, styled with newline and space-skip</p>
           <a>Anchor Tag, style with font only</a>
+          <br><br>
      </header>
-     <nav></nav>
-     <main>
-          <header></header>
+     <nav class="nav"><a>NAV Test</a></nav>
+     <main class="main">
+          <header><h1>H1 in MAIN, one whitespace, Notice HEADER</h1></header>
           <section>
                <h1>H1 in MAIN / SECTION, two whitespace</h1>
                <p>Paragraph Tag, styled with newline and space-skip</p>
@@ -51,25 +112,30 @@
                </article>
           </section>
      </main>
-     <aside></aside>
+     <aside class="aside">
+          <br>
+          The Aside Space, VW assigned in BODY
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <br><br><br><br><br><br>
+     </aside>
      <footer></footer>
      <!-- Comment: semantic tags that fit anywhere-->
      <section></section>
      <article></article>
 </body>
 <footer>
-  <blockquote cite="https://www.brainyquote.com/quotes/alphonso_davies_1148161">
-    <!-- Date Accessed 20220919 -->
-  </blockquote>
-  <p>
-    <strong>
-      "Don't give up, no matter how hard it is. Things are going to be tough down the road, but the more work you put in, the more achievement you're going to get out of it."
-    </strong>
-    <em>- <a href="https://www.brainyquote.com/quotes/alphonso_davies_1148161" target="_blank">
-      Alphonso Davies</a>
-    </em>
-  </p>
-  <p>&copy Akram Elzein, powered by Justakak in GitHub</p>
-</footer>
-
-</html>
+     <blockquote cite="https://www.brainyquote.com/quotes/alphonso_davies_1148161">
+       <!-- Date Accessed 20220919 -->
+     </blockquote>
+     <p>
+       <strong>
+         "Don't give up, no matter how hard it is. Things are going to be tough down the road, but the more work you put in, the more achievement you're going to get out of it."
+       </strong>
+       <em>- <a href="https://www.brainyquote.com/quotes/alphonso_davies_1148161" target="_blank">
+         Alphonso Davies</a>
+       </em>
+     </p>
+     <p>&copy Akram Elzein, powered by Justakak in GitHub</p>
+   </footer>
+   
+   </html>
